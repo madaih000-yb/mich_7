@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/estilo.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>PREVENTAS</title>
+</head>
+<body>
+	<div class="contenedor">
+	
+			
+			<div class="logo"> <img src="../imagenes/logo.jpg" alt="Logo"></div>
+		<video autoplay muted loop width="159%" height="259"><source src="../video/animacion.mp4"></video>
+	</div>
+		
+		<nav class="menu">
+            <div class="hamburguesa" id="hamburguesa">
+                <span class="barra"></span>
+                <span class="barra"></span>
+                <span class="barra"></span>
+            </div>
+
+     	<ul class="menulista" id="menulista" style="text-align:center;">
+    <li style="display:inline-block;">
+       <li class="menuitem"><a href="../index.html"class="menulink"><p class="menu">INICIO</p></a></li>
+    </li>
+
+    <li style="display:inline-block;">
+        <li class="menuitem"><a href="../preventas.html"class="menulink"><p class="menu">PREVENTAS</p></a></li>
+    </li>
+
+    <li style="display:inline-block;">
+        <li class="menuitem"><a href="galeria.html"class="menulink"><p class="menu">GALERIA</p></a></li>
+    </li>
+
+    <li style="display:inline-block;">
+        <li class="menuitem"><a href="galeria.html"class="menulink"><p class="menu">PEDIDOS</p></a></li>
+
+    </li>
+
+    <li style="display:inline-block;">
+  <li class="menuitem"><a href="galeria.html"class="menulink"><p class="menu">CONTACTOS</p></a></li>
+
+    </li>
+</ul>
+</nav>
+
+		<div class="principal">
+			<section class="columna1">
+			 <img src="../imagenes/imagen.jpg"width="350">
+			<center>
+			<i><p>Disfruta de nuestras deliciosas kittychelas preparadas con los mejores sabores, mucho estilo y el toque perfecto para pasarla increíble.</p></i>
+           <center>s
+		</div>
+			<center>
+		<div class="columna2">
+			 <img src="../imagenes/chela.jpg" alt="Logo"width="130" height="130">
+			<center>
+			<i><p>Tenemos sabores frutales,gomitas,chamoy,escarchados y combinaciones irresistibles que te van a encantar.</p></i>
+		</div>
+		<center>
+		<div class="columna3">
+			 <img src="../imagenes/images2chelas.jpg" alt="Logo"width="130" height="130">
+			 <center>
+			<i><p>Haz tu pedido y prueba la favorita de todos.</p></i>
+		</div>
+
+
+
+
+	</footer class="pie">
+	INSTAGRAM @kittychelas
+
+</footer>
+</body>
+</html>
+<script>
+    const hamburguesa = document.getElementById("hamburguesa");
+    const menulista = document.getElementById("menulista");
+    hamburguesa.addEventListener("click",() =>{
+        hamburguesa.classList.toggle("active");
+        menulista.classList.toggle("active");
+        });
+   </script>
