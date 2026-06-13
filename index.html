@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/estilo.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>MI PAGINA</title>
+</head>
+<body>
+	<div class="contenedor">
+	
+			
+			<div class="logo"> <img src="imagenes/logo.jpg" alt="Logo"></div>
+		
+		<nav class="menu">
+            <div class="hamburguesa" id="hamburguesa">
+                <span class="barra"></span>
+                <span class="barra"></span>
+                <span class="barra"></span>
+            </div>
+
+     		<ul class="menulista" id="menulista">
+                <li class="menuitem"><a href="../index.html"class="menulink"><p class="menu">INICIO</p></a></li>
+                 <li class="menuitem"><a href="html/preventas.html"class="menulink"><p class="menu">PREVENTAS</p></a></li>
+                   <li class="menuitem"><a href="html/galeria.html"class="menulink"><p class="menu">GALERIA</p></a></li>
+                    <li class="menuitem"><a href="html/preventas.html"class="menulink"><p class="menu">PEDIDOS</p></a></li>
+                      <li class="menuitem"><a href="html/preventas.html"class="menulink"><p class="menu">CONTACTOS</p></a></li>
+
+
+
+     	</nav>
+
+		<div class="principal">
+			
+			 <img src="imagenes/imagen.jpg">
+			<h2><p>Disfruta de nuestras deliciosas kittychelas preparadas con los mejores sabores, mucho estilo y el toque perfecto para pasarla increíble.</p></h2>
+		
+
+
+		</div>
+			
+		<div class="columna1">
+			 <img src="imagenes/chela.jpg" alt="Logo">
+			<h2><p>Tenemos sabores frutales,gomitas,chamoy,escarchados y combinaciones irresistibles que te van a encantar.</p></h2>
+		</div>
+		<div class="columna1">
+			 <img src="imagenes/imchel.jpg" alt="Logo">
+			<h2><p>Haz tu pedido y prueba la favorita de todos.</p></h2>
+		</div>
+		<div class="columna1">
+			 <img src="imagenes/chela.jpg" alt="Logo">
+			<h2><p>Perfectas para fiestas reuniones y fines de semana sabor,diversion y buena vibra en cada vaso.</p></h2>
+		</div>
+
+
+
+
+	</footer class="pie">
+	INSTAGRAM @kittychelas
+
+</footer>
+</body>
+</html>
+<script>
+    const hamburguesa = document.getElementById("hamburguesa");
+    const menulista = document.getElementById("menulista");
+    hamburguesa.addEventListener("click",() =>{
+        hamburguesa.classList.toggle("active");
+        menulista.classList.toggle("active");
+    });
+
+</script>
+
